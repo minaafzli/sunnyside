@@ -17,11 +17,11 @@ export default function Header(){
         <img src="images/logo.svg" alt="sunnyside" className="h-fit" />
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-4 items-center">
+        <ul className="hidden md:flex gap-8 items-center">
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
-          <button className="bg-white text-black rounded-full cursor-pointer px-6 py-3 hover:bg-blue-400/35 uppercase hover:text-white font-fraunces">
+          <button className="bg-white text-black rounded-full cursor-pointer px-6 py-3 hover:bg-sky-300/90 uppercase hover:text-white font-[fraunces]">
             Contact
           </button>
         </ul>
@@ -53,7 +53,7 @@ export default function Header(){
 
     </nav>
 
-<p className='font-[Fraunces] text-6xl text-center pt-20'>We are creatives</p>
+<p className='font-[Fraunces] text-6xl text-center px-10 pt-20'>We are creatives</p>
    </div>
     </>
 }
