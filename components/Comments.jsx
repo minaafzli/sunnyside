@@ -1,6 +1,6 @@
 function comments({namePic , name , job}) {
     return (
-        <div className="w-80 items-center flex flex-col m-4">
+        <div className="w-80 items-center flex flex-col mb-10">
 <img 
   src={`/images/image-${namePic}.jpg`} 
   alt={namePic} 
