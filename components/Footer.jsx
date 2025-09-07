@@ -1,5 +1,6 @@
 function Footer() {
     return (
+        <>
         <div className="flex flex-col bg-[#79c8b7] h-100 items-center justify-center">
             <img src="/images/logo.svg" alt="sunnyside" className="pb-10"/>
             <ul className="flex gap-10 items-center pb-20">
@@ -14,8 +15,9 @@ function Footer() {
             <li><img src="/images/icon-twitter.svg" alt="twitter" /></li>
             </ul>
             
-
         </div>
+<div className="bg-[#25564b] text-center text-white">&copy; created by mina</div>
+        </>
     )
 }
 
