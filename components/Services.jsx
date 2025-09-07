@@ -1,3 +1,4 @@
+import LearnMore from "./LearnMore"
 
 function Services() {
   return (
@@ -13,7 +14,7 @@ function Services() {
         </p>
        <div>
         
-        <a href="#" className="uppercase font-[Fraunces] border-b-8 border-yellow-100 hover:border-b-yellow-300">learn more</a>
+      <LearnMore color={'yellow'}/>
         </div> 
       </div>
       <img
@@ -37,8 +38,8 @@ function Services() {
           qui magnam itaque autem!
         </p>
        <div>
+        <LearnMore color={'red'}/>
         
-        <a href="#" className="uppercase font-[Fraunces] border-b-8 rounded- border-red-200 hover:border-b-red-400">learn more</a>
         </div> 
       </div>
 
