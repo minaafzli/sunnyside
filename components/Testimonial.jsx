@@ -2,11 +2,11 @@ import Comments from '/components/Comments'
 
 function Testimonial() {
     return (
-      <div className=' flex flex-col items-center justify-center '>
+      <div className=' flex flex-col items-center justify-center md:h-screen'>
       
-              <p className="uppercase text-gray-400 font-[Fraunces]  text-xl text-center md:mt-30 md:mb-20 mt-20 mb-10">Client testimonial</p>   
+              <p className="uppercase text-gray-400 font-[Fraunces]  text-xl text-center mt-20 md:mt-0">Client testimonial</p>   
 
-              <div className=' flex flex-col md:flex-row  w-screen justify-center items-center'>
+              <div className=' flex flex-col md:flex-row  w-screen justify-center items-center mt-20'>
                 
              <Comments namePic={'emily'} name={'Emily R.'} job={'Marketing director'}/> 
              <Comments namePic={'thomas'} name={'Thomas S.'} job={'chief operating officer'}/> 
